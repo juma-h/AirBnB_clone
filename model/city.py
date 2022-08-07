@@ -3,8 +3,9 @@
 from models.base_model import BaseModel
 
 
-class Amenity(BaseModel):
+class City(BaseModel):
     """
-This AMenity Class is a subclass of the BaseModel.
+    This City class is a subclass of BaseModel.
     """
+    state_id = ""
     name = ""
