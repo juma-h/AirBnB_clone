@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-# 
+
 import uuid
-from daytime import datetime 
+from datetime import datetime
+import models
 
 class BaseModel:
     def __init__(self, id, created_at, updated_at):
